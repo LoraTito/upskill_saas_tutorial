@@ -6,12 +6,16 @@ gem 'rails', '5.0.0'
 
 # Use Puma as the app server
 gem 'puma', '3.4.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '3.0.0'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -38,6 +42,9 @@ end
 
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
